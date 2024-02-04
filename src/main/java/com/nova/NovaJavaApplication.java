@@ -18,4 +18,5 @@ public class NovaJavaApplication {
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }
+
 }
