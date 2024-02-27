@@ -5,19 +5,20 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class PageResultDTO<T> {
+public class TagAdminDTO {
 
-    private List<T> records;
+    private Integer id;
 
-    private Integer total;
+    private String tagName;
 
-    private Long current;
+    private Integer articleCount;
 
-    private Long size;
+    private LocalDateTime createTime;
+
 }

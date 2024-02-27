@@ -41,12 +41,12 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> i
     @SneakyThrows
     @Override
     public PageResultDTO<CategoryAdminDTO> listCategoriesAdmin(ConditionVO conditionVO) {
-        Integer count = categoryMapper.selectCount(new LambdaQueryWrapper<Category>().like(StringUtils.isNotBlank(conditionVO.getKeywords()), Category::getCategoryName, conditionVO.getKeywords()));
-        if (count == 0) {
+        Integer total = categoryMapper.selectCount(new LambdaQueryWrapper<Category>().like(StringUtils.isNotBlank(conditionVO.getKeywords()), Category::getCategoryName, conditionVO.getKeywords()));
+        if (total == 0) {
             return new PageResultDTO<>();
         }
         List<CategoryAdminDTO> categoryList = categoryMapper.listCategoriesAdmin(PageUtils.getLimitCurrent(), PageUtils.getSize(), conditionVO);
-        return new PageResultDTO<>(categoryList, count);
+        return new PageResultDTO<>(categoryList, total, PageUtils.getCurrent(), PageUtils.getSize());
     }
 
     @SneakyThrows

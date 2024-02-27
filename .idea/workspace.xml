@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15751cf3-530e-4eb8-a1f9-1f4508416c47" name="更改" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/constant/OptTypeConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/CategoryAdminDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/CategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/CategoryOptionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/PageResultDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/vo/CategoryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/vo/ConditionVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+    <list default="true" id="15751cf3-530e-4eb8-a1f9-1f4508416c47" name="更改" comment="feature: 分类模块">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/controller/TagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/entity/ArticleTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/mapper/ArticleTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/mapper/TagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/TagAdminDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/TagDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/vo/TagVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TagMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/PageResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/PageResultDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +28,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,7 +123,9 @@
       <workItem from="1706955135653" duration="42000" />
       <workItem from="1706955185438" duration="2016000" />
       <workItem from="1707012111474" duration="16735000" />
-      <workItem from="1707098139456" duration="4464000" />
+      <workItem from="1707098139456" duration="4887000" />
+      <workItem from="1709001744969" duration="2750000" />
+      <workItem from="1709016706628" duration="4271000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -137,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707040012001</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature: 分类模块">
+      <option name="closed" value="true" />
+      <created>1707105024618</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707105024618</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="feature: 分类模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 分类模块" />
   </component>
 </project>
