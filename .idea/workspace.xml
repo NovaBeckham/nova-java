@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15751cf3-530e-4eb8-a1f9-1f4508416c47" name="更改" comment="feature: 分类模块">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/controller/TagController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/entity/ArticleTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/mapper/ArticleTagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/mapper/TagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/TagAdminDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/TagDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/vo/TagVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/TagService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/TagServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TagMapper.xml" afterDir="false" />
+    <list default="true" id="15751cf3-530e-4eb8-a1f9-1f4508416c47" name="更改" comment="feature: 分类和标签模块更改">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/vo/ArticleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/ArticleTagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/ArticleTagServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/PageResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/PageResultDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +42,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/learn/Java/Project/shiyi-blog/blog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "1d1d8081c01569e3b8d139f9ee729f3e",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/learn/Java/Project/aurora/aurora-springboot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1d1d8081c01569e3b8d139f9ee729f3e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="NovaJavaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="nova-java" />
@@ -125,7 +120,9 @@
       <workItem from="1707012111474" duration="16735000" />
       <workItem from="1707098139456" duration="4887000" />
       <workItem from="1709001744969" duration="2750000" />
-      <workItem from="1709016706628" duration="4271000" />
+      <workItem from="1709016706628" duration="10713000" />
+      <workItem from="1709192755842" duration="6040000" />
+      <workItem from="1709260802469" duration="2605000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -143,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707105024618</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feature: 分类和标签模块更改">
+      <option name="closed" value="true" />
+      <created>1709026866505</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709026866505</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="feature: 分类模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: 分类模块" />
+    <MESSAGE value="feature: 分类和标签模块更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 分类和标签模块更改" />
   </component>
 </project>
