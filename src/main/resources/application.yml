@@ -44,7 +44,7 @@ mybatis-plus:
 upload:
   mode: oss
   oss:
-    url: https://starsky-blog.oss-cn-guangzhou.aliyuncs.com
+    url: https://nova-blog.oss-cn-guangzhou.aliyuncs.com
     endpoint: oss-cn-guangzhou.aliyuncs.com
     accessKeyId: OSS配置accessKeyId
     accessKeySecret: OSS配置accessKeySecret
