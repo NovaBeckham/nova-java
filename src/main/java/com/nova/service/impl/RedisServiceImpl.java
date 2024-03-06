@@ -4,10 +4,13 @@ package com.nova.service.impl;
 import com.nova.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.ZSetOperations;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;;
+import java.util.Objects;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 
 @Service
@@ -55,6 +58,11 @@ public class RedisServiceImpl implements RedisService {
     public Boolean hSet(String key, String hashKey, Object value, long time) {
         redisTemplate.opsForHash().put(key, hashKey, value);
         return expire(key, time);
+    }
+
+    @Override
+    public Map<Object, Double> zAllScore(String key) {
+        return Objects.requireNonNull(redisTemplate.opsForZSet().rangeWithScores(key, 0, -1)).stream().collect(Collectors.toMap(ZSetOperations.TypedTuple::getValue, ZSetOperations.TypedTuple::getScore));
     }
 
 }

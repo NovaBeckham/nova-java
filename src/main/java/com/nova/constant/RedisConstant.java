@@ -6,6 +6,8 @@ public interface RedisConstant {
 
     String USER_CODE_KEY = "code:";
 
+    String ARTICLE_VIEWS_COUNT = "article_views_count";
+
     String LOGIN_USER = "login_user";
 
 }

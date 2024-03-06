@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15751cf3-530e-4eb8-a1f9-1f4508416c47" name="更改" comment="feature: 分类和标签模块更改">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/vo/ArticleVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/ArticleTagService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/ArticleTagServiceImpl.java" afterDir="false" />
+    <list default="true" id="15751cf3-530e-4eb8-a1f9-1f4508416c47" name="更改" comment="feature: 文章添加和修改模块">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/ArticleAdminDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nova/model/dto/ArticleAdminViewDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ArticleTagMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nova/constant/RedisConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nova/constant/RedisConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nova/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nova/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nova/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nova/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nova/mapper/ArticleTagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nova/mapper/ArticleTagMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nova/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nova/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nova/service/impl/RedisServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -122,7 +128,9 @@
       <workItem from="1709001744969" duration="2750000" />
       <workItem from="1709016706628" duration="10713000" />
       <workItem from="1709192755842" duration="6040000" />
-      <workItem from="1709260802469" duration="2605000" />
+      <workItem from="1709260802469" duration="10152000" />
+      <workItem from="1709628365330" duration="2867000" />
+      <workItem from="1709692878725" duration="2979000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -148,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709026866505</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature: 文章添加和修改模块">
+      <option name="closed" value="true" />
+      <created>1709264437265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709264437265</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +174,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="feature: 分类模块" />
     <MESSAGE value="feature: 分类和标签模块更改" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: 分类和标签模块更改" />
+    <MESSAGE value="feature: 文章添加和修改模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 文章添加和修改模块" />
   </component>
 </project>

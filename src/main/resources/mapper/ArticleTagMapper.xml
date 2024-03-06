@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nova.mapper.ArticleTagMapper">
+    <select id="listTagIdsByArticleId" resultType="java.lang.Integer">
+        SELECT tag_id
+        FROM t_article_tag
+        WHERE article_id = #{articleId}
+    </select>
+</mapper>

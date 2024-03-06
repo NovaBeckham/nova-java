@@ -19,5 +19,7 @@ public interface RedisService {
 
     Boolean hSet(String key, String hashKey, Object value, long time);
 
+    Map<Object, Double> zAllScore(String key);
+
 }
 
